@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>研同学</title>
+    <!-- 引入样式css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <!-- 引入字体图标 -->
+    <link rel="stylesheet" href="iconfont/iconfont.css" />
+    <!-- 引入图标 -->
+    <link rel="shortcut icon" href="favicon_logosc/favicon.ico" />
+    <!-- 引入js -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <section class="box">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h6 class="title_kp">POSTGRADUATE</h6>
+            <p>The next postgraduate is you.</p>
+            <div class="kp_img1">
+              <img src="images/开屏1.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="title_kp">ACCOMPANY</h3>
+            <p>Never feel lonely during the preparation time.</p>
+            <div class="kp_img1">
+              <img src="images/开屏2.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="title_kp">STUDY</h3>
+            <p>Obtain knowlwdge with efficient and delight.</p>
+            <div class="kp_img1">
+              <img src="images/开屏3.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="../package/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
